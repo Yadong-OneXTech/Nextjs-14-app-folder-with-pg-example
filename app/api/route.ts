@@ -1,5 +1,6 @@
 import { Pool } from 'pg'
 
+// replace it by env variables in different environments.
 const connectionString = 'postgres://postgres.hchpzmmijzppyygjwqqg:NextjsV14-AppFolder-with-pg@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres'
 
 const fetchData = async () => {
